@@ -1,104 +1,132 @@
-# My-Excel-Projects-Repository
-Training Projects
-
-# 📊 Excel Data Analysis Project – Bike Sales & Retail Data
+# 📊 Excel Retail & Sales Analysis Project
 
 ## 📌 Overview
-This project was completed as part of a **Data Technician Bootcamp (Week 1 – Excel)** and focuses on analysing **retail and bike sales data** using Microsoft Excel. The work demonstrates fundamental data analysis techniques, including data cleaning, aggregation, and visualisation.
+This project was completed as part of a **Data Technician Bootcamp (Week 1 – Excel)** and focuses on analysing retail and sales datasets using Microsoft Excel.
 
-The project uses real-world style datasets to uncover insights into **sales performance, customer demographics, and regional trends**.
-
----
-
-## 🛠️ Key Skills Demonstrated
-
-### 🔢 Excel Formulas & Functions
-- `SUM` – Calculate total values (e.g. total commission)
-- `SUMIF` – Conditional aggregation based on year and criteria
-- `AVERAGE` – Calculate mean values
-- `AVERAGEIF` – Conditional averages across subsets of data
-- `DATE`, `MONTH`, `YEAR` – Extract and manipulate date components
-- `UNIQUE` – Identify distinct values in datasets
-- `VLOOKUP` – Retrieve matching data from tables
-- `SWITCH` – Categorise sales volumes into groups (e.g. High, Medium, Low)
+The project demonstrates core data analysis skills including data cleaning, aggregation, transformation, and visualisation to extract meaningful insights from transactional and sales data.
 
 ---
 
-### 📂 Data Handling
-- Filtering datasets (e.g. sorting age groups largest to smallest) [1](https://b2wcompletetraining057-my.sharepoint.com/personal/yuliaboyko_bootcamp_leepgroup_com/_layouts/15/Doc.aspx?sourcedoc=%7B45D1DD86-E230-4360-B75C-6A22B5ED9127%7D&file=Data_Technician_Workbook_Week_1_Excel%202026%20v2.docx&action=default&mobileredirect=true)  
-- Sorting data and resetting to original structure  
-- Creating calculated columns (e.g. extracting year from dates) [1](https://b2wcompletetraining057-my.sharepoint.com/personal/yuliaboyko_bootcamp_leepgroup_com/_layouts/15/Doc.aspx?sourcedoc=%7B45D1DD86-E230-4360-B75C-6A22B5ED9127%7D&file=Data_Technician_Workbook_Week_1_Excel%202026%20v2.docx&action=default&mobileredirect=true)  
+## 🧠 Skills & Tools Used
+
+### 📐 Excel Functions
+- `SUM` – Calculated total commissions
+- `SUMIF` – Aggregated commission totals by year
+- `AVERAGE` – Computed average commission values
+- `AVERAGEIF` – Analysed averages based on conditions (e.g., year)
+- `DATE`, `MONTH`, `YEAR` – Extracted and corrected date-related data
+- `UNIQUE` – Identified distinct values within datasets
+- `VLOOKUP` – Retrieved matching data from tables
+- `SWITCH` – Categorised sales volumes into levels (High / Medium / Low)
 
 ---
 
-### 📊 Data Analysis
-- Using **PivotTables** to summarise sales by:
-  - Country
-  - Product
-  - Customer demographics  
-- Identifying key trends, such as:
-  - Highest sales regions (e.g. United States)
-  - Most profitable countries (e.g. Australia) [1](https://b2wcompletetraining057-my.sharepoint.com/personal/yuliaboyko_bootcamp_leepgroup_com/_layouts/15/Doc.aspx?sourcedoc=%7B45D1DD86-E230-4360-B75C-6A22B5ED9127%7D&file=Data_Technician_Workbook_Week_1_Excel%202026%20v2.docx&action=default&mobileredirect=true)  
-  - Customer age group insights  
+### 🔍 Data Handling
+- Applied **filtering** (e.g., sorting age largest to smallest)
+- Performed **sorting** to organise datasets and restore original structure
+- Cleaned and structured retail transaction data
+
+---
+
+### 📊 Data Analysis Techniques
+- Built **PivotTables** to:
+  - Summarise sales by country, product, and customer demographics  
+  - Identify trends across regions and categories  
+- Used conditional logic to calculate **commission rates by year**
+- Analysed performance differences between **2023 vs 2024 sales**
 
 ---
 
 ### 📈 Data Visualisation
-- Creating charts to present bike sales insights:
-  - Sales comparisons by country
-  - Customer segmentation
-  - Product performance trends  
-- Enhancing dashboards using PivotCharts for clearer storytelling  
+- Created charts to present:
+  - Sales performance trends
+  - Regional comparisons
+  - Product-level insights  
+- Developed visual dashboards to support data-driven decision-making
 
 ---
 
-## 📁 Project Tasks
+## 📂 Project Tasks
 
-### ✅ Retail Sales Analysis
-- Applied filters and sorting to explore dataset structure  
-- Calculated total and average commission using Excel formulas [1](https://b2wcompletetraining057-my.sharepoint.com/personal/yuliaboyko_bootcamp_leepgroup_com/_layouts/15/Doc.aspx?sourcedoc=%7B45D1DD86-E230-4360-B75C-6A22B5ED9127%7D&file=Data_Technician_Workbook_Week_1_Excel%202026%20v2.docx&action=default&mobileredirect=true)  
-- Used `SUMIF` and `AVERAGEIF` to analyse performance across different years [1](https://b2wcompletetraining057-my.sharepoint.com/personal/yuliaboyko_bootcamp_leepgroup_com/_layouts/15/Doc.aspx?sourcedoc=%7B45D1DD86-E230-4360-B75C-6A22B5ED9127%7D&file=Data_Technician_Workbook_Week_1_Excel%202026%20v2.docx&action=default&mobileredirect=true)  
+### ✅ Retail Sales Dataset Analysis
+- Filtered and sorted transaction data
+- Calculated:
+  - Total commission
+  - Average commission
+- Corrected commission logic using conditional formulas
 
-### ✅ Bike Sales Pivot Analysis
-- Built PivotTables to analyse:
-  - Sales by country and age group  
-  - Gender-based purchasing trends  
-- Extracted insights from customer and regional sales data [1](https://b2wcompletetraining057-my.sharepoint.com/personal/yuliaboyko_bootcamp_leepgroup_com/_layouts/15/Doc.aspx?sourcedoc=%7B45D1DD86-E230-4360-B75C-6A22B5ED9127%7D&file=Data_Technician_Workbook_Week_1_Excel%202026%20v2.docx&action=default&mobileredirect=true)  
+### ✅ Conditional Aggregation
+- Used `SUMIF` and `AVERAGEIF` to:
+  - Compare yearly performance
+  - Identify differences in commission rates
 
-### ✅ Product Sales Categorisation
-- Created a PivotTable summarising sales by county and product  
-- Used the `SWITCH` function to categorise sales volume into:
-  - High (>600)
-  - Medium (300–600)
-  - Low (<300) [1](https://b2wcompletetraining057-my.sharepoint.com/personal/yuliaboyko_bootcamp_leepgroup_com/_layouts/15/Doc.aspx?sourcedoc=%7B45D1DD86-E230-4360-B75C-6A22B5ED9127%7D&file=Data_Technician_Workbook_Week_1_Excel%202026%20v2.docx&action=default&mobileredirect=true)  
+### ✅ Pivot Table Analysis (Bike Sales Dataset)
+- Analysed:
+  - Sales by country and demographics
+- Key findings:
+  - USA generated the highest overall sales
+  - Australia performed strongly across segments
+  - Canada & Germany showed lower sales performance
+
+### ✅ Product Sales Classification
+- Created a PivotTable summarising **Sales Volume by County & Product**
+- Applied `SWITCH` function to classify sales:
+  - **High** (>600)
+  - **Medium** (300–600)
+  - **Low** (<300)
 
 ### ✅ Visualisation Lab
-- Developed charts to communicate insights  
-- Presented data in a clear, dashboard-style format  
+- Built charts to explore:
+  - Sales distribution
+  - Regional performance
+  - Product trends
 
 ---
 
-## 🚀 Key Outcomes
-- Improved proficiency in **Excel data analysis tools**
-- Built confidence working with **real-world sales datasets**
-- Gained experience creating **insight-driven reports and dashboards**
-- Developed a strong foundation for progressing into **data analytics roles**
+## 🔍 Key Insights
+- Sales performance varies significantly by **region and product category**
+- **Higher commission rates** in 2024 impact total earnings
+- Some regions require **targeted marketing strategies** due to lower sales
+- PivotTables provide powerful summaries for quick decision-making
 
 ---
 
-## 🧠 What I Learned
-- How to transform raw data into meaningful insights  
-- The importance of structured data and clean calculations  
-- How PivotTables and charts support data-driven decision making  
-- Practical application of Excel functions in business scenarios  
+## 🚀 What I Learned
+- How to transform raw data into actionable insights using Excel
+- The importance of **structured data analysis workflows**
+- Practical use of Excel functions for real-world datasets
+- Building interactive reports with PivotTables and charts
 
 ---
 
-## 📎 Tools Used
-- Microsoft Excel (Formulas, PivotTables, Charts, Data Tools)
+## 📁 Files
+- Excel datasets (Retail Sales, Bike Sales, Product Sales)
+- Workbook documentation (tasks, screenshots, and outputs)
 
 ---
 
-## 📬 Contact
-Feel free to connect or view more of my projects on GitHub!
+## 📊 Visualisation Examples
+
+Below are examples of visualisations created during the project:
+
+- 📈 **Sales Trends Line Chart**  
+  Shows changes in sales over time to identify growth patterns
+
+- 📊 **Sales by Country Bar Chart**  
+  Compares total sales across different regions
+
+- 🥧 **Product Distribution Pie Chart**  
+  Highlights the proportion of sales by product category
+
+- 📉 **Commission Comparison Chart (2023 vs 2024)**  
+  Demonstrates the impact of different commission rates
+
+- 📊 **Pivot Chart Dashboard**  
+  Interactive charts linked to PivotTables for dynamic analysis
+  
+<img width="532" height="308" alt="image" src="https://github.com/user-attachments/assets/0817a847-c225-40f7-a1a7-f6118750390c" />
+<img width="536" height="323" alt="image" src="https://github.com/user-attachments/assets/5f72083b-bdee-485f-a6f5-98e3fb7f775a" />
+<img width="540" height="290" alt="image" src="https://github.com/user-attachments/assets/64da937b-e36c-467d-b096-4e1e3c57e03b" />
+
+
 ``
